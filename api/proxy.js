@@ -1,8 +1,7 @@
 export default async function handler(req, res) {
   // Allow requests from your Wix site — replace with your actual Wix domain
   const allowedOrigins = [
-    'https://yoursite.wixsite.com',
-    'https://www.yourdomain.com', // if you have a custom domain on Wix
+    'https://www.calitogroup.com',
   ];
 
   const origin = req.headers.origin;
